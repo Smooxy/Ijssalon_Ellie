@@ -25,7 +25,7 @@ inkomen_per_dag = [220, 430, 125, 160, 205, 90, 345]
 laag_hoog_resultaat = laag_en_hoog(inkomen_per_dag)
 print(laag_hoog_resultaat)
 
-def gemiddelde(mijn_lijst):
+def gemiddelde(mijn_lijst): 
     gemiddelde_inkomsten = sum(mijn_lijst) / len(mijn_lijst)
     return f"De gemiddelde inkomsten deze week zijn {gemiddelde_inkomsten} euro."
 
